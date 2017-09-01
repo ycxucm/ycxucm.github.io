@@ -1,10 +1,71 @@
-
- <!DOCTYPE HTML>
-<html >
+<!doctype html>
+<html>
 <head>
-  <meta charset="UTF-8">
-  
-    <title>浼犳槑</title>
-<body>hello world.
-  </body>
- </html>
+<meta charset="gb2312">
+<title>传说的传，明月的明</title>
+<meta name="keywords" content="传明" />
+<meta name="description" content="传明" />
+<link href="css/base.css" rel="stylesheet">
+<link href="css/index.css" rel="stylesheet">
+<!--[if lt IE 9]>
+<script src="js/modernizr.js"></script>
+<![endif]-->
+<script type="text/javascript" src="js/jquery.js"></script>
+</head>
+<body>
+<div class="topnav">
+chuanming's gitpages
+</div>
+<div id="wrapper">
+  <header>
+    <div class="headtop"></div>
+    <div class="contenttop">
+      <div class="logo f_l">传明</div>
+      <div class="blank"></div>
+      <nav>
+        <div  class="navigation">
+          <ul class="menu">
+            <li><a href="index.html">网站首页</a></li>
+            <li><a href="#">关于我</a>
+          </ul>
+        </div>
+      </nav>
+      <SCRIPT type=text/javascript>
+	// Navigation Menu
+	$(function() {
+		$(".menu ul").css({display: "none"}); // Opera Fix
+		$(".menu li").hover(function(){
+			$(this).find('ul:first').css({visibility: "visible",display: "none"}).slideDown("normal");
+		},function(){
+			$(this).find('ul:first').css({visibility: "hidden"});
+		});
+	});
+</SCRIPT> 
+    </div>
+  </header>
+  <div class="jztop"></div>
+  <div class="container">
+    <div class="bloglist f_l">
+      <h3><a href="#">欢迎来访</a></h3>
+      <figure><img src="images/img_1.jpg" alt="hello world"></figure>
+      <ul>
+        <p> 你好，感谢关注，本人工作方向是IT项目管理、J2EE企业级系统研发、大数据场景分析、产品设计。目前人在北京。</p>
+        <a title="欢迎来访" href="#" target="_blank" class="readmore">阅读全文&gt;&gt;</a>
+      </ul>
+      <p class="dateview"><span>2017-09-01</span><span>The eyes are blind. One must look with the heart.</span></p>
+    </div>
+
+    </div>
+  </div>
+  <!-- container代码 结束 -->
+  <div class="jzend"></div>
+  <footer>
+    <div class="footer">
+      <div class="f_l">
+        <p>All Rights Reserved 版权所有：<a href="http://www.structea.cn">xuchuanming</a> </p>
+      </div>
+    </div>
+  </footer>
+</div>
+</body>
+</html>
